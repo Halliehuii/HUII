@@ -60,7 +60,7 @@ export default function Home() {
           <div className="mt-8 flex justify-center">
             <Link
               href="/about"
-              className="inline-flex items-center gap-2 bg-primary/10 hover:bg-primary/20 text-primary px-4 py-2 rounded-md transition-colors border border-primary/30"
+              className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-md transition-colors"
             >
               Learn more about me <ArrowRight size={16} />
             </Link>
