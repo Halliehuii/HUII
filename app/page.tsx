@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Terminal } from "@/components/terminal"
 import { ProjectCard } from "@/components/project-card"
 import { BlogCard } from "@/components/blog-card"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Smile } from "lucide-react"
 
 export default function Home() {
   const [introComplete, setIntroComplete] = useState(false)
@@ -62,7 +62,7 @@ export default function Home() {
               href="/about"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-md transition-colors"
             >
-              Learn more about me <ArrowRight size={16} />
+              <Smile size={16} /> Learn more about me <ArrowRight size={16} />
             </Link>
           </div>
         )}
