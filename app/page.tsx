@@ -62,7 +62,10 @@ export default function Home() {
               href="/about"
               className="inline-flex items-center gap-2 bg-yellow-500 hover:bg-yellow-600 text-black px-4 py-2 rounded-md transition-colors"
             >
-              <Smile size={16} /> Learn more about me <ArrowRight size={16} />
+              <span className="animate-wave">
+                <Smile size={16} />
+              </span>
+              Learn more about me <ArrowRight size={16} />
             </Link>
           </div>
         )}
